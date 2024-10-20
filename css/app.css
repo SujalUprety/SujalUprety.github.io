@@ -162,7 +162,7 @@ footer {
     stroke: white;
     stroke-linecap: round;
     stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
-    transition: stroke-dasharray 0.1s ease-in-out;
+    transition: stroke-dasharray 0.05s ease-in-out;
 }
 
 code {
