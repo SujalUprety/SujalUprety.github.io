@@ -1,0 +1,47 @@
+﻿
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src = "../Assets/User.png" class="user-image" alt="Sujal Uprety"/>
+        </div>
+            
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+                Hi there, I am Sujal Uprety. I am a passionate game developer with a keen interest in game development and programming. I have been working in the field of game development for the past 4 years and have developed several games in Unity and currently learning Unreal Engine. I am proficient in C#, C++, and Java programming languages and have a good understanding of game development concepts and principles. I am currently pursuing a Bachelors degree in Computer Science and IT from the Institute of Science and Technology, Tribhuvan University.
+            </p>
+            
+            <div class="tabs">
+                <div class="tab-titles">
+                    <p class = "tab-links @(activeTab == "skills" ? "active-link" : "")" onclick = "@(() => OnTab("skills"))">Skills</p>
+                    <p class = "tab-links @(activeTab == "education" ? "active-link" : "")" onclick = "@(() => OnTab("education"))">Education</p>
+                </div>
+                
+                <div class="tab-contents">
+                    @if(activeTab == "skills") {
+                        <div class="icons">
+                            <img src="../Assets/Icons/unity.png" alt="Unity"/>
+                            <img src="../Assets/Icons/unreal.png" alt="Unreal"/>
+                            <img src="../Assets/Icons/cs.png" alt="C#"/>
+                            <img src="../Assets/Icons/cpp.png" alt="C++"/>
+                            <img src="../Assets/Icons/java.png" alt="Java"/>
+                        </div>
+                    }
+                
+                    else if(activeTab == "education") {
+                        <ul>
+                            <li>
+                                <span>2022-2026</span> <br/>
+                                Bachelors in Computer Science and IT, Institute of Science and Technology, Tribhuvan University.
+                            </li>
+                            <li>
+                                <span>2019-2022</span> <br/>
+                                Higher Secondary Education, Science, New Capital College.
+                            </li>
+                        </ul>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

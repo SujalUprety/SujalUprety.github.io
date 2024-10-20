@@ -1,0 +1,50 @@
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.header-text {
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.header-text p {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #aaa;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeIn 5s forwards 4s infinite;
+}
+
+.header-text h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.header-text h1 span {
+    color: rgba(255, 183, 0, 0.58);
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-text {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1 {
+        font-size: 2em;
+    }
+    
+    .header-text p {
+        font-size: 1.5em;
+    }
+    
+    .typed-text {
+        animation: none;
+        display: inline;
+    }
+}

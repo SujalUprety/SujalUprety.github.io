@@ -1,16 +1,38 @@
-﻿@inherits LayoutComponentBase
-<div class="page">
-    <div class="sidebar">
-        <NavMenu/>
-    </div>
+﻿@using SujalUpretyPortfolio.Pages
+@inherits LayoutComponentBase
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+<PageTitle>Sujal Uprety</PageTitle>
+
+<div id="header">
+
+    <div class="main-layout">
+        <div class="nav-menu @(isOpenMenu ? "open" : "")">
+            <NavMenu />
+            <i class="fa-solid fa-xmark" onclick="@ToggleMenu"></i>
         </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
+        <i class="fa-solid fa-bars" onclick="@ToggleMenu"></i>
+        
+        <div class="content">
+            <Home/>
+        </div>
+    </div>
+    
+        
 </div>
+    
+<div class="content">
+    @Body
+</div>
+<footer>
+    <p>&copy; 2024 Sujal Uprety</p>
+</footer>
+
+@code {
+
+    private bool isOpenMenu;
+    
+    private void ToggleMenu() {
+        isOpenMenu = !isOpenMenu;
+    }
+
+}

@@ -1,7 +1,7 @@
-﻿<Router AppAssembly="@typeof(App).Assembly">
+﻿<Router AppAssembly="@typeof(Program).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)"/>
-        <FocusOnNavigate RouteData="@routeData" Selector="h1"/>
+        @* <FocusOnNavigate RouteData="@routeData" Selector="h1"/> *@
     </Found>
     <NotFound>
         <PageTitle>Not found</PageTitle>
@@ -10,3 +10,8 @@
         </LayoutView>
     </NotFound>
 </Router>
+
+
+@code {
+    private object routeData;
+}

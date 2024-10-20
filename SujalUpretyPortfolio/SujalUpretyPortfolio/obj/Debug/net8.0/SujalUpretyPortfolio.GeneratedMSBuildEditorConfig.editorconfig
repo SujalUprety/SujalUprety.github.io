@@ -26,18 +26,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Projects/PortFolio/SujalUprety.github.io/SujalUpretyPortfolio/SujalUpretyPortfolio/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[G:/Projects/PortFolio/SujalUprety.github.io/SujalUpretyPortfolio/SujalUpretyPortfolio/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[G:/Projects/PortFolio/SujalUprety.github.io/SujalUpretyPortfolio/SujalUpretyPortfolio/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [G:/Projects/PortFolio/SujalUprety.github.io/SujalUpretyPortfolio/SujalUpretyPortfolio/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -49,3 +37,23 @@ build_metadata.AdditionalFiles.CssScope = b-v49juvfx4c
 [G:/Projects/PortFolio/SujalUprety.github.io/SujalUpretyPortfolio/SujalUpretyPortfolio/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ivc39d0epz
+
+[G:/Projects/PortFolio/SujalUprety.github.io/SujalUpretyPortfolio/SujalUpretyPortfolio/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-tnq9bqk4o8
+
+[G:/Projects/PortFolio/SujalUprety.github.io/SujalUpretyPortfolio/SujalUpretyPortfolio/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-54dwcx8yxs
+
+[G:/Projects/PortFolio/SujalUprety.github.io/SujalUpretyPortfolio/SujalUpretyPortfolio/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-du45ypxx8w
+
+[G:/Projects/PortFolio/SujalUprety.github.io/SujalUpretyPortfolio/SujalUpretyPortfolio/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ipy9h8xx4g
+
+[G:/Projects/PortFolio/SujalUprety.github.io/SujalUpretyPortfolio/SujalUpretyPortfolio/Pages/Projects.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-gk187ec73w
